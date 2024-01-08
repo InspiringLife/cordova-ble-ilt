@@ -239,9 +239,9 @@
         "weight_measurement": 0x2A9D,
         "weight_scale_feature": 0x2A9E,
         "wind_chill": 0x2A79,
-        "speaker_volume": "00002A19-0000-1000-8000-00805F9B34FB",
-        "mute_control": "00002A7E-0000-1000-8000-00805F9B34FB",
-        "equalizer_settings": "00002A2B-0000-1000-8000-00805F9B34FB"
+        "speaker_volume": "0x2A19",
+        "mute_control": "0x2A7E",
+        "equalizer_settings": "0x2A2B"
     };
 
     var bluetoothDescriptors = {
