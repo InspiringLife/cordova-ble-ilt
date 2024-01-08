@@ -43,6 +43,8 @@
     var bluetoothServices = {
         "alert_notification": 0x1811,
         "automation_io": 0x1815,
+        "audio_distribution": 0x110A,
+        "audio_video_remote_control": 0x110E,
         "battery_service": 0x180F,
         "blood_pressure": 0x1810,
         "body_composition": 0x181B,
@@ -236,7 +238,10 @@
         "weight": 0x2A98,
         "weight_measurement": 0x2A9D,
         "weight_scale_feature": 0x2A9E,
-        "wind_chill": 0x2A79
+        "wind_chill": 0x2A79,
+        "speaker_volume": "00002A19-0000-1000-8000-00805F9B34FB",
+        "mute_control": "00002A7E-0000-1000-8000-00805F9B34FB",
+        "equalizer_settings": "00002A2B-0000-1000-8000-00805F9B34FB"
     };
 
     var bluetoothDescriptors = {
